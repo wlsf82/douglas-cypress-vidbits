@@ -1,41 +1,41 @@
 # VidBits TAT
 
-Sample application for a course of Cypress at the talkingabouttesting.coursify.me school.
+Aplicação exemplo para o curso de Cypress da [Escola Talking About Testing](https://talkingabouttesting.coursify.me).
 
-## Pre-requirements
+## Pre-requisitos
 
 - [git](https://git-scm.com/downloads)
-- [MongoDb](https://www.mongodb.com/download-center)
-- [Node.js](https://nodejs.org/en/) (version 8 or greater)
+- [mongoDB](https://www.mongodb.com/download-center)
+- [Node.js](https://nodejs.org/en/) (versão 8)
 
-> To check the Node.js version installed in your compouter, run `node -v`. You should see something like this v8.12.0. If you don't have Node.js installed, use the above link to download and install it.
+> Para verificar a versão do Node.js instalada em seu computador, execute o comando `node -v`. Você deve ver algo como v8.12.0. Se você não tiver o Node.js instalado, utilize o link acima para baixá-lo e instalá-lo.
 
-## Installation
+## Instalação
 
-Run `npm i` to install the project and dev dependencies.
+Execute `npm i` para instalar a dependências do projeto e de desenvolvimento.
 
-## Installing and starting the database
+## Instalando e inicializando o banco de dados
 
-Follow the instructions in [this file](./MONGODB_INSTALLATION.md) to install and start the database.
+Siga as instruções [deste arquivo](./MONGODB_INSTALLATION.md) para instalar e inicilizar o banco de dados.
 
-## Starting the application
+## Inicializando a aplicação
 
-Run `npm start` to start the application.
+Execute `npm start` para inicializar a aplicação.
 
-> After that you should be able to access the application in the browser through the following URL: http://localhost:4001.
+> Apõs inicializada a aplicação deve estar acessível no navegador através da seguinte URL: http://localhost:4001.
 
-## Running the tests
+## Executando os testes
 
-There are [Cypress](https://cypress.io) end to end tests available for this application.
+Testes _end to end_ escritos com o framework [Cypress](https://cypress.io) estão disponíveis para esta aplicação.
 
-### Interactive mode
+### Modo interativo
 
-Run `npx cypress oepn` to run the tests interactive mode.
+Execute `npx cypress open` para rodar os testes em modo interativo.
 
-### Headless mode
+### Modo headless
 
-Run `npm t` to run the tests in headless mode.
+Execute `npm t` para rodar os testes em modo _headless_.
 
 ___
 
-Made with 💚 by [Walmyr Filho](http://walmyr-filho.com)
+Feito com 💚 por [Walmyr Filho](http://walmyr-filho.com)
