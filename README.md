@@ -5,6 +5,7 @@ Sample application for a course of Cypress at the talkingabouttesting.coursify.m
 ## Pre-requirements
 
 - [git](https://git-scm.com/downloads)
+- [MongoDb](https://www.mongodb.com/download-center)
 - [Node.js](https://nodejs.org/en/) (version 8 or greater)
 
 > To check the Node.js version installed in your compouter, run `node -v`. You should see something like this v8.12.0. If you don't have Node.js installed, use the above link to download and install it.
@@ -12,6 +13,10 @@ Sample application for a course of Cypress at the talkingabouttesting.coursify.m
 ## Installation
 
 Run `npm i` to install the project and dev dependencies.
+
+## Installing and starting the database
+
+Follow the instructions in [this file](./MONGODB_INSTALLATION.md) to install and start the database.
 
 ## Starting the application
 
