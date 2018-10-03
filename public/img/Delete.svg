@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="37px" viewBox="0 0 38 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Delete</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="15.5" cy="15.5" r="15.5"></circle>
+        <filter x="-11.3%" y="-14.5%" width="145.2%" height="141.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="4" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VIDBITS-Desktop-Main" transform="translate(-915.000000, -158.000000)">
+            <g id="Group-3" transform="translate(79.000000, 159.000000)">
+                <g id="Delete" transform="translate(836.000000, 0.000000)">
+                    <g id="Oval-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FF9B34" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M7.55128205,9.14102564 L23.5280074,25.117751" id="Line-3" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="square"></path>
+                    <path d="M7.94871795,24.7203151 L23.9254433,8.74358974 L7.94871795,24.7203151 Z" id="Line-3" stroke="#FFFFFF" stroke-width="1.6" fill="#FFFFFF" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

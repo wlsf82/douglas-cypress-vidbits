@@ -1,0 +1,25 @@
+<div class="contents-container" id="create-video-container">
+    <h2>Save a video</h2>
+    <form action="/videos" method="post">
+        <label for="title">Title</label>
+        <input class="input-text-field" id="video-title-input" name="title" maxlength="50" value="{{ newVideo.title }}" />
+        {{#with newVideo.errors.title as | error |}}
+        <p>
+            <span class="error">{{ error.message }}</span>
+        </p>
+        {{/with}}
+
+        <label for="description">Description</label>
+        <textarea id="video-description-input" name="description">{{ newVideo.description }}</textarea>
+
+        <label for="url">URL</label>
+        <input class="input-text-field" id="video-url-input" name="url" value="{{ newVideo.url }}" />
+        {{#with newVideo.errors.url as | error |}}
+        <p>
+            <span class="error">{{ error.message }}</span>
+        </p>
+        {{/with}}
+
+        <button class="add-video-button" id="submit-button" type="submit">Create</button>
+    </form>
+</div>

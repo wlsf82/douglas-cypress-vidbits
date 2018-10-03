@@ -1,0 +1,22 @@
+<div class="contents-container">
+    <div class="video-card">
+        <div class="video-title">
+            <h1>{{ video.title }}</h1>
+        </div>
+
+        <div class="video-buttons">
+
+            <form action="/videos/{{ video._id }}/delete" method="post">
+                <button id="delete" type="submit">Delete</button>
+                <a href="/videos/{{ video._id }}/edit" class="edit-video-button" id="edit">Edit</a>
+            </form>
+        </div>
+
+        <iframe class="video-player" src="{{ video.url }}" frameborder="0" allowfullscreen></iframe>
+
+        <div class="video-description">
+            <p>{{ video.description }}</p>
+        </div>
+
+    </div>
+</div>

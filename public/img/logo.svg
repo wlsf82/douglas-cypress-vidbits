@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="140px" height="62px" viewBox="0 0 140 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 8.32775353e-15 0 62 140 62 140 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VIDBITS-Desktop-Main" transform="translate(-442.000000, -48.000000)">
+            <g id="logo" transform="translate(442.000000, 48.000000)">
+                <polygon id="Path" fill="#FFFFFF" points="16.5626667 21.8 20.3066667 21.8 25.6626667 36.126 31.0706667 21.8 34.6586667 21.8 27.3786667 40 23.7646667 40"></polygon>
+                <polygon id="Path" fill="#FFFFFF" points="37.6226667 21.8 41.1066667 21.8 41.1066667 40 37.6226667 40"></polygon>
+                <path d="M58.6826667,22.957 C60.1213406,23.7283372 61.247996,24.8073264 62.0626667,26.194 C62.8773374,27.5806736 63.2846667,29.1493246 63.2846667,30.9 C63.2846667,32.6506754 62.8730041,34.2149931 62.0496667,35.593 C61.2263292,36.9710069 60.086674,38.0499961 58.6306667,38.83 C57.1746594,39.6100039 55.5193426,40 53.6646667,40 L46.2286667,40 L46.2286667,21.8 L53.7946667,21.8 C55.6146758,21.8 57.2439928,22.1856628 58.6826667,22.957 Z" id="Path" fill="#FFFFFF"></path>
+                <path d="M56.8756667,36.165 C57.7683378,35.6536641 58.4659975,34.9430046 58.9686667,34.033 C59.4713359,33.1229955 59.7226667,32.0873391 59.7226667,30.926 C59.7226667,29.7646609 59.4626693,28.720338 58.9426667,27.793 C58.4226641,26.865662 57.7076712,26.1463359 56.7976667,25.635 C55.8876621,25.1236641 54.869339,24.868 53.7426667,24.868 L49.7126667,24.868 L49.7126667,36.932 L53.8726667,36.932 C54.9820056,36.932 55.9829956,36.6763359 56.8756667,36.165 Z" id="Path" fill="#FF9B34"></path>
+                <g id="Group-4">
+                    <g id="Page-1">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M0,26.0189036 L0,62 L104.027778,62 C123.796296,62 140,50.2797732 140,35.9810964 L140,0 L35.9722222,0 C16.2037037,0 0,11.7202268 0,26.0189036" id="Fill-1" fill="#FF9B34" mask="url(#mask-2)"></path>
+                    </g>
+                    <text id="VIDBITS" font-family="Montserrat-Medium, Montserrat" font-size="26" font-weight="400" letter-spacing="0.649999976">
+                        <tspan x="16.5106667" y="40" fill="#FFFFFF">VID</tspan>
+                        <tspan x="64.7406667" y="40" letter-spacing="0.563333333" fill="#222222">BITS</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

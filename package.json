@@ -1,0 +1,21 @@
+{
+  "name": "vidbits-tat",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "drop-db": "node ./bin/drop-database",
+    "seed-db": "node ./bin/seed-database",
+    "start": "node ./bin/www",
+    "test": "cypress run"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "express": "~4.15.2",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.11.13",
+    "morgan": "~1.8.1"
+  },
+  "devDependencies": {
+    "cypress": "^3.1.0"
+  }
+}
