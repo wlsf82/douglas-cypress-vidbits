@@ -26,6 +26,7 @@ describe("Edit video", () => {
       .clear()
       .type(updatedTitle);
     cy.get(".edit-video-button#submit-button").click();
+
     cy.getVideoIdFromHomePage().then(videoId => {
       cy.url().should(
         "be.equal",
@@ -38,6 +39,7 @@ describe("Edit video", () => {
   it("allows saving video without description", () => {
     cy.get("#video-description-input").clear();
     cy.get(".edit-video-button#submit-button").click();
+
     cy.get(".video-card .video-description").should("contain", "");
   });
 
@@ -46,12 +48,15 @@ describe("Edit video", () => {
     cy.get(".edit-video-button#submit-button")
       .as("saveBtn")
       .click();
+
     cy.get(".error")
       .as("error")
       .should("be.visible")
       .and("have.length", 1);
+
     cy.get("#video-url-input").clear();
     cy.get("@saveBtn").click();
+
     cy.get("@error")
       .should("be.visible")
       .and("have.length", 2);

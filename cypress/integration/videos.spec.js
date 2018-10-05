@@ -4,9 +4,9 @@ describe("Videos page", () => {
   context("empty state", () => {
     it("shows no 'video-card' and iframe, and has a create button (with proper color) that leads to '/videos/create'", () => {
       cy.visit("/videos");
+
       cy.get(".video-card").should("not.exist");
       cy.get("iframe").should("not.exist");
-
       checksIfCreateBtnIsVisibleHasRightHrefValueAndProperBgColor();
     });
   });
@@ -15,9 +15,9 @@ describe("Videos page", () => {
     it("shows 2 videos inside iframes, and has a visible create button, with proper color, and that leads to '/videos/create'", () => {
       cy.exec("npm run seed-db");
       cy.visit("/videos");
+
       cy.get(".video-card").should("have.length", 2);
       cy.get("iframe").should("have.length", 2);
-
       checksIfCreateBtnIsVisibleHasRightHrefValueAndProperBgColor();
     });
 
@@ -25,6 +25,7 @@ describe("Videos page", () => {
       cy.seedDbWithVideo();
       cy.getVideoIdFromHomePage().then(videoId => {
         cy.visit("/videos");
+
         cy.get(`.video-title a[href='/videos/${videoId}']`).should(
           "be.visible"
         );
