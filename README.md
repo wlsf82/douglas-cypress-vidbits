@@ -1,6 +1,6 @@
 # VidBits TAT
 
-Aplicação exemplo para o curso de Cypress da [Escola Talking About Testing](https://talkingabouttesting.coursify.me).
+Aplicação exemplo para o programa de mentoria em testes automatizados com Cypress.
 
 ## Pre-requisitos
 
