@@ -2,6 +2,8 @@
 
 Aplicação exemplo para o programa de mentoria em testes automatizados com Cypress.
 
+⚠️ **Este projeto foi descontinuado.** ⚠️
+
 ## Pre-requisitos
 
 - [git](https://git-scm.com/downloads)
